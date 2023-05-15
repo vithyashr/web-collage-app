@@ -1,0 +1,63 @@
+<html>
+    <head>
+       <title>My Selfie App</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+<link href="style.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+
+</head>
+ 
+<body style="background-color: darkolivegreen;">
+    <div >
+    <center>
+
+       
+             <h1 style="color: white;">Web Collage App
+<sup><img src="camera.png" style="width: 90px; height:70px ;"></sup>
+             </h1>
+        
+       
+        <hr>
+        <h4 style="color:rgb(200, 255, 0);">Please press allow as soon as popup comes. After you give a voice command</h4>
+<h5 style="color:rgb(90, 234, 167);"><b>GIVE FOUR POSES AFTER FIVE SECONDS FOR YOUR COLLAGES.... </b></h5>
+        <div class="form-group">
+            <h3>Say "Take my selfie"</h3>
+            <label>Your voice output</label>
+            <textarea id="textbox" class="form-control" readonly="true" style="width: 1200;"></textarea>
+
+        </div>
+    
+        
+    
+        <p style="color:white;">Press the Start button</p>
+<button class="btn btn-primary" onclick="Start()">Start</button>
+<br><br>
+        <label style="color:white;">Your webcam : </label>
+        <br>
+        <div id="camera"></div>
+        <br>
+        
+        <label style="color:white;">Your selife Will Display Here: </label>
+<br>
+
+    <div id="resultRow">
+
+        <div id="result1" class="column"> </div>
+<br>
+        <div id="result2" class="column"> </div>
+<br>
+        <div id="result3" class="column"> </div>
+<br>
+        <div id="result4" class="column"> </div>
+       <br><br><br>
+        </div>
+    </center>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
